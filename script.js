@@ -85,8 +85,8 @@
 
 // Уточнение: пользователь всегда вводит корректное положительное целое число.
 
-// let num = prompt("Введите число");
-// let num1 = Number.parseInt ((num/100)%10);
-// let num2 = Number.parseInt ((num/10)%10);
-// let nume3 = Number.parseInt (num%10);
-// alert (`В числе ${num} количество сотен: ${num1} колличество десятков: ${num2} колличество единиц: ${nume3}`);
+let num = prompt("Введите число");
+let num1 = Number.parseInt ((num/100)%10);
+let num2 = Number.parseInt ((num/10)%10);
+let nume3 = Number.parseInt (num%10);
+alert (`В числе ${num} количество сотен: ${num1} колличество десятков: ${num2} колличество единиц: ${nume3}`);
